@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ramoxWeb</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main class="main flow">
+    <h1 class="main__heading">پلن ها</h1>
+    <div class="main__cards cards">
+      <div class="cards__inner">
+        <div class="cards__card card">
+          <h2 class="card__heading">پلن عادی</h2>
+          <p class="card__price">1 میلیون</p>
+          <ul role="list" class="card__bullets flow">
+            <li>اتصال دامنه دلخواه</li>
+            <li>سرعت عادی</li>
+            <li>تغییر متن و رنگ و تم</li>
+            <li>اتصال در 10 درصد کشور های جهان</li>
+          </ul>
+          <a href="#basic" class="card__cta cta">خرید سایت</a>
+        </div>
+  
+        <div class="cards__card card">
+          <h2 class="card__heading">پلن حرفه ای</h2>
+          <p class="card__price">2 میلیون</p>
+          <ul role="list" class="card__bullets flow">
+            <li>اتصال دامنه دلخواه</li>
+            <li>تغییر متن و تم و رنگ</li>
+            <li>سرعت خوب</li>
+            <li>اتصال در 50 درصد کشور های جهان</li>
+            <li>گذاشتن پس زمینه و بنر</li>
+          </ul>
+          <a href="#pro" class="card__cta cta">خرید سایت</a>
+        </div>
+  
+        <div class="cards__card card">
+          <h2 class="card__heading">پلن پیشرفته</h2>
+          <p class="card__price">4 میلیون</p>
+          <ul role="list" class="card__bullets flow">
+            <li>اتصال دامنه دلخواه</li>
+            <li>تغییر متن و فونت و رنگ</li>
+            <li>تغییر تم سایت</li>
+            <li>اتصال در کل کشور های جهان</li>
+            <li>سرعت خیلی خوب</li>
+            <li>تغییر دلخواه و پس زمینه متحرک</li>
+          </ul>
+          <a href="#ultimate" class="card__cta cta">خرید سایت</a>
+        </div>
+      </div>
+  
+      <div class="overlay cards__inner"></div>
+    </div>
+  </main>
+  <script>
+    document.querySelectorAll('.card__cta').forEach(function(button) {
+      button.addEventListener('click', function() {
+        window.location.href = 'https://t.me/Bache_Asil';
+      });
+    });
+  </script>
+</body>
+</html>
